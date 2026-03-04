@@ -79,7 +79,7 @@ export default function HeroClinic() {
               </Link>
 
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/917775884621"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full border border-white/30 bg-white/10 px-10 py-4 text-sm md:text-base font-semibold text-white backdrop-blur hover:bg-white/20 transition"
