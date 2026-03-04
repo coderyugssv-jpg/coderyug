@@ -18,24 +18,24 @@ export default function WebAndBookingSystem() {
   
   const packages = [
     {
-      name: "Starter",
-      price: "₹22,000",
-      type: "one-time",
-      features: ["5–6 Pages Website", "Basic Booking Form", "WhatsApp Integration", "Google Maps", "1 Month Support"],
+      name: "Launch Plan",
+      price: "₹9,999",
+      type: "One-Time",
+      features: ["4–5 Page Website", "Mobile Responsive Design", "Contact/Basic Booking Form", "WhatsApp Integration", "Google Maps", "15 Days Support"],
       highlight: false
     },
     {
-      name: "Professional",
-      price: "₹35,000",
-      type: "one-time",
-      features: ["Full Custom Website", "Smart Booking Calendar", "Admin Dashboard", "Lead Tracking", "3 Months Support"],
+      name: "Growth Plan",
+      price: "₹18,999",
+      type: "One-Time",
+      features: ["Everything in Launch", "Smart Booking Calendar", "Admin Dashboard", "Lead Tracking", "Speed Optimization", "1 Months Support"],
       highlight: true
     },
     {
-      name: "Growth System",
-      price: "₹15,000",
-      type: "per month",
-      features: ["System Maintenance", "Monthly Updates", "Security & Hosting", "Performance Tracking", "Technical Support"],
+      name: "Care Plan",
+      price: "₹3,999",
+      type: "Per Month",
+      features: ["Hosting & Security", "Monthly Updates", "Booking System Monitoring", "Performance Tracking", "Technical Support"],
       highlight: false
     }
   ];
@@ -113,6 +113,55 @@ export default function WebAndBookingSystem() {
         </div>
       </section>
 
+
+
+
+{/* ✅ 10 POINT CLINIC CHECKLIST */}
+<section className="py-24 px-6 md:px-20 bg-[#0F172A]">
+  <div className="max-w-6xl mx-auto text-center mb-16">
+    <h2 className="text-white text-3xl md:text-4xl font-bold">
+      Is Your Clinic Website Ready for Growth?
+    </h2>
+    <p className="text-gray-100 mt-4">
+      If you’re missing even 3 of these, you're losing patients daily.
+    </p>
+  </div>
+
+  <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
+    {[
+      "Mobile-friendly design",
+      "Online appointment booking",
+      "Instant WhatsApp inquiry option",
+      "Doctor profile pages",
+      "Google Maps integration",
+      "SEO-optimized treatment pages",
+      "Automated booking confirmations",
+      "Admin dashboard for staff",
+      "Patient lead tracking system",
+      "Fast loading speed under 3 seconds"
+    ].map((item, index) => (
+      <div key={index} className="flex items-start gap-3 bg-slate-50 p-5 rounded-xl border border-slate-100">
+        <CheckCircle className="text-green-500 w-5 h-5 mt-1 shrink-0" />
+        <p className="text-gray-700">{item}</p>
+      </div>
+    ))}
+  </div>
+
+  <div className="text-center mt-12">
+    <Link 
+      to="/contact" 
+      className="bg-green-500 hover:bg-green-400 text-black font-bold px-8 py-4 rounded-full transition-all"
+    >
+      Get Your Free Website Audit
+    </Link>
+  </div>
+</section>
+
+
+
+
+
+
       {/* 5️⃣ HOW IT WORKS */}
       <section className="py-20 px-6 md:px-20">
         <h2 className="text-3xl font-bold text-center mb-16">3 Steps to Get Started</h2>
@@ -132,6 +181,31 @@ export default function WebAndBookingSystem() {
           ))}
         </div>
       </section>
+
+
+
+      {/* 🚀 STARTUP LAUNCH OFFER */}
+      <section className="py-12 bg-green-500 text-black text-center px-6">
+        <div className="max-w-4xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold mb-3">
+            🚀 Startup Launch Offer – Limited Slots Available
+          </h3>
+          <p className="text-lg font-medium mb-6">
+            We’re offering special pricing for our first 10 clinic partners. 
+            Get a premium website & booking system at startup rates.
+          </p>
+          <Link 
+            to="/contact" 
+            className="inline-block bg-black text-white px-8 py-3 rounded-full font-bold hover:bg-gray-800 transition"
+          >
+            Claim Your Slot Now
+          </Link>
+        </div>
+      </section>
+
+
+
+
 
       {/* 6️⃣ PACKAGES & PRICING */}
       <section className="py-24 bg-[#0F172A] text-white px-6 md:px-20">
