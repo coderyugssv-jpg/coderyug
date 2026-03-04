@@ -37,7 +37,7 @@ export default function Footer() {
           {/* BRAND */}
           <div className="lg:col-span-4">
             <Link to="/" className="inline-block mb-8 hover:scale-105 transition-transform">
-              <img src="./src/assets/logo.png" alt="Coderyug Logo" className="h-14 w-auto" />
+              <img src="./logo.png" alt="Coderyug Logo" className="h-14 w-auto" />
             </Link>
 
             <p className="mb-8 max-w-sm text-lg font-medium text-slate-400 leading-relaxed">
