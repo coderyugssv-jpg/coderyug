@@ -105,7 +105,7 @@ export default function Navbar() {
           >
             {/* Your Logo Image */}
             <img
-              src="./logo.png"
+              src="/logo.png"
               alt="Coderyug Logo"
               className="h-12 w-auto md:h-14 object-contain drop-shadow-[0_0_8px_rgba(0,71,171,0.3)]"
             />
