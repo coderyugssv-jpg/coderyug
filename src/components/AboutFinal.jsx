@@ -113,8 +113,8 @@ export default function AboutFinal() {
               </p>
               
               <div className="flex gap-4">
-                <a href="#" className="p-3 bg-white/10 rounded-xl hover:bg-blue-600 transition-all"><Linkedin size={20}/></a>
-                <a href="#" className="p-3 bg-white/10 rounded-xl hover:bg-blue-600 transition-all"><Mail size={20}/></a>
+                <a href="https://www.linkedin.com/in/nextgenbyvishal/" className="p-3 bg-white/10 rounded-xl hover:bg-blue-600 transition-all"><Linkedin size={20}/></a>
+                <a href="mailto: vraiii3245@gmail.com" className="p-3 bg-white/10 rounded-xl hover:bg-blue-600 transition-all"><Mail size={20}/></a>
               </div>
             </div>
           </div>
