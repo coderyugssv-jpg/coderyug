@@ -98,12 +98,12 @@ export default function Footer() {
               <div className="space-y-6">
 
                 {/* EMAIL */}
-                <a href="mailto:hello@coderyug.com" className="flex items-center gap-4 group">
+                <a href="mailto:coderyug.ssv@gmail.com" className="flex items-center gap-4 group">
                   <div className="h-10 w-10 rounded-full bg-[#0047ab]/20 flex items-center justify-center text-[#0047ab] group-hover:bg-[#0047ab] group-hover:text-white transition">
                     <Mail size={18} />
                   </div>
                   <span className="text-sm font-bold text-slate-300 group-hover:text-white">
-                    hello@coderyug.com
+                    coderyug.ssv@gmail.com
                   </span>
                 </a>
 
