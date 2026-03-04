@@ -89,13 +89,25 @@ export default function ResponsiveContact() {
 
             <div className="mt-12 p-8 bg-slate-900 rounded-[2.5rem] text-white">
               <h4 className="text-xl font-bold mb-4">Follow Our Growth</h4>
+
               <div className="flex gap-4">
-                {[<Linkedin />, <Instagram />, <Facebook />].map((icon, idx) => (
-                  <button key={idx} className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center hover:bg-blue-600 transition-all">
-                    {icon}
-                  </button>
+                {[
+                  { icon: <Linkedin />, link: "https://www.linkedin.com/in/yourprofile" },
+                  { icon: <Instagram />, link: "https://www.instagram.com/yourprofile" },
+                  { icon: <Facebook />, link: "https://www.facebook.com/yourpage" },
+                ].map((item, idx) => (
+                  <a
+                    key={idx}
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center hover:bg-blue-600 transition-all"
+                  >
+                    {item.icon}
+                  </a>
                 ))}
               </div>
+            </div>
             </div>
           </div>
 
