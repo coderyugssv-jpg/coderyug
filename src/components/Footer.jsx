@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Mail, Linkedin, Instagram, MessageSquare, Globe } from "lucide-react";
+import { Mail, Linkedin, Instagram, Facebook, MessageSquare, Globe } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -46,10 +46,25 @@ export default function Footer() {
             </p>
 
             <div className="flex gap-4">
-              {[Linkedin, Instagram].map((Icon, i) => (
+              {[
+                {
+                  Icon: Linkedin,
+                  link: "https://www.linkedin.com/company/coderyug/",
+                },
+                {
+                  Icon: Instagram,
+                  link: "https://www.instagram.com/coderyug",
+                },
+                {
+                  Icon: Facebook,
+                  link: "https://www.facebook.com/people/Coderyug/61580045923014/",
+                },
+              ].map(({ Icon, link }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/5 border border-white/10 hover:bg-[#0047ab] hover:border-[#0047ab] transition"
                 >
                   <Icon size={20} />

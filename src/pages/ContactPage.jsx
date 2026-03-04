@@ -92,9 +92,18 @@ export default function ResponsiveContact() {
 
               <div className="flex gap-4">
                 {[
-                  { icon: <Linkedin />, link: "https://www.linkedin.com/in/yourprofile" },
-                  { icon: <Instagram />, link: "https://www.instagram.com/yourprofile" },
-                  { icon: <Facebook />, link: "https://www.facebook.com/yourpage" },
+                  {
+                    icon: <Linkedin />,
+                    link: "https://www.linkedin.com/company/coderyug/",
+                  },
+                  {
+                    icon: <Instagram />,
+                    link: "https://www.instagram.com/coderyug",
+                  },
+                  {
+                    icon: <Facebook />,
+                    link: "https://www.facebook.com/people/Coderyug/61580045923014/",
+                  },
                 ].map((item, idx) => (
                   <a
                     key={idx}
@@ -107,7 +116,6 @@ export default function ResponsiveContact() {
                   </a>
                 ))}
               </div>
-            </div>
             </div>
           </div>
 
