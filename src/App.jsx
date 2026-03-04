@@ -12,9 +12,12 @@ import Footer from "./components/Footer";
 import AboutUs from "./pages/AboutUs";
 import ContactPage from "./pages/ContactPage";
 import { Analytics } from "@vercel/analytics/react"
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
